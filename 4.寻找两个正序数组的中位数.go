@@ -8,6 +8,10 @@ package leetcode
 
 // @lc code=start
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+	for i, j := 0, 0; i < len(nums1) || j < len(nums2); i, j = i+1, j+1 {
+
+	}
+	return 0
 
 }
 
