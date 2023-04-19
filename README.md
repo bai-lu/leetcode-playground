@@ -14,7 +14,7 @@
     1. go
     2. leetcode
 
-## 默认项目路径(可以在leecode插件中指定)
+## 默认项目路径(可以在leetcode插件中指定)
 
 请将项目clone至以下路径
 
