@@ -10,3 +10,9 @@ type ListNode struct {
 	Val  int
 	Next *ListNode
 }
+
+// Definition for a Node.
+type Node struct {
+	Val      int
+	Children []*Node
+}
