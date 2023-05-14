@@ -18,25 +18,25 @@ package leetcode
 // 	nums = nums[:slow]
 // 	return len(nums)
 
-func removeDuplicates(nums []int) int {
-	m := map[int]struct{}{}
-	result := []int{}
-	for i := 0; i < len(nums); i++ {
-		if _, ok := m[nums[i]]; ok {
-			continue
-		} else {
-			m[nums[i]] = struct{}{}
-			result = append(result, nums[i])
-		}
-	}
+// func removeDuplicates(nums []int) int {
+// 	m := map[int]struct{}{}
+// 	result := []int{}
+// 	for i := 0; i < len(nums); i++ {
+// 		if _, ok := m[nums[i]]; ok {
+// 			continue
+// 		} else {
+// 			m[nums[i]] = struct{}{}
+// 			result = append(result, nums[i])
+// 		}
+// 	}
 
-	// for i := 0; i < len(result); i++ {
-	// 	nums[i] = result[i]
-	// }
-	copy(nums, result)
+// 	// for i := 0; i < len(result); i++ {
+// 	// 	nums[i] = result[i]
+// 	// }
+// 	copy(nums, result)
 
-	return len(result)
-}
+// 	return len(result)
+// }
 
 /*
 note : 直接看是个hash table 题目, 这里的解法是hash table

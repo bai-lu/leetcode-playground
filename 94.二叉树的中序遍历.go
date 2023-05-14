@@ -32,5 +32,5 @@ func inorderTraversal(root *TreeNode) []int {
 	return result
 }
 
-// interation todo
+// iteration todo
 // @lc code=end
